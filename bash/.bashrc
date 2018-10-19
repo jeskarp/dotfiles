@@ -115,3 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+export JAVA_HOME="/usr/lib/jvm/java-8-oracle/jre"
+export PATH=$PATH:$JAVA_HOME/bin
